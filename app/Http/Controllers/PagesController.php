@@ -23,6 +23,6 @@ class PagesController extends Controller
      */
     public function index()
     {
-        return view('layouts.master');
+        return view('content.dashboard');
     }
 }
